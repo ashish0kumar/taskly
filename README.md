@@ -1,3 +1,3 @@
 # Taskly
 
- A CLI task tracker written in Go 
+ A CLI Task Tracker written in Go 
