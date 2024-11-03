@@ -1,10 +1,9 @@
 # 📋 Taskly
 
 **Taskly** is a CLI-based task management tool built in **Go** using the **Cobra** package. It features data storage with **SQLite**, visually styled output with **Lip Gloss**, and an interactive **Kanban** board view powered by **Bubble Tea**.
-
 Taskly makes it easy to **add**, **edit**, **delete**, and **manage** tasks directly from the terminal.
 
-![ss](assets/ss.png)
+![ss](assets/screenshot.png)
 
 ## ✨ Features
 
