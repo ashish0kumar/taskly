@@ -4,7 +4,6 @@
 
 Taskly makes it easy to **add**, **edit**, **delete**, and **manage** tasks directly from the terminal.
 
-![ss](assets/ss.png)
 
 ## ✨ Features
 
