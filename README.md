@@ -1,11 +1,11 @@
-# Taskly
+# 📋 Taskly
 
 **Taskly** is a CLI-based task management tool built in **Go** using the **Cobra** package. It features data storage with **SQLite**, visually styled output with **Lip Gloss**, and an interactive **Kanban** board view powered by **Bubble Tea**.
 
 Taskly makes it easy to **add**, **edit**, **delete**, and **manage** tasks directly from the terminal.
 
 
-## Features
+## ✨ Features
 
 - **Task Management:** Add, delete, update, and list tasks.
 - **Project Organization:** Assign tasks to specific projects for better organization.
@@ -14,7 +14,7 @@ Taskly makes it easy to **add**, **edit**, **delete**, and **manage** tasks dire
 - **Kanban Board Interface:** Visualize tasks as a Kanban board with Bubble Tea.
 
 
-## Installation
+## 🛠️ Installation
 
 Clone the repository and navigate to the project directory:
 
@@ -34,13 +34,13 @@ go build -o taskly
 
 This will create a binary executable named `taskly`.
 
-## Usage
+## 🔧 Usage
 
 Use Taskly commands from your terminal to manage tasks. The main command is `taskly`, followed by subcommands to perform specific actions.
 
-### Commands
+### </> Commands
 
-- **Add a Task**
+- ➕ **Add a Task**
 
   Add a new task, optionally specifying a project name:
 
@@ -48,7 +48,7 @@ Use Taskly commands from your terminal to manage tasks. The main command is `tas
   taskly add "Task Name" -p "Project Name"
   ```
 
-- **Delete a Task**
+- ❌ **Delete a Task**
 
   Delete a task by its unique ID:
 
@@ -56,7 +56,7 @@ Use Taskly commands from your terminal to manage tasks. The main command is `tas
   taskly delete <ID>
   ```
 
-- **Update a Task**
+- ✏️ **Update a Task**
 
   Update a task's name, project, or status:
 
@@ -69,7 +69,7 @@ Use Taskly commands from your terminal to manage tasks. The main command is `tas
     - `1` for "in progress"
     - `2` for "done"
 
-- **List All Tasks**
+- 📄 **List All Tasks**
 
   List all stored tasks in a table format:
 
@@ -77,7 +77,7 @@ Use Taskly commands from your terminal to manage tasks. The main command is `tas
   taskly list
   ```
 
-- **View Kanban Board**
+- 🗂️ **View Kanban Board**
 
   Display tasks in a Kanban board layout. Tasks are categorized into "todo," "in progress," and "done" columns:
 
@@ -85,7 +85,7 @@ Use Taskly commands from your terminal to manage tasks. The main command is `tas
   taskly kanban
   ```
 
-- **View Database Path**
+- 🗄️ **View Database Path**
 
   Locate the database file where tasks are stored:
 
@@ -93,7 +93,7 @@ Use Taskly commands from your terminal to manage tasks. The main command is `tas
   taskly where
   ```
 
-## Examples
+## 💡 Examples
 
 1. **Adding a Task with Project Name**
 
@@ -123,12 +123,12 @@ taskly kanban
 
 This displays tasks in a Kanban layout, categorized by status.
 
-### Data Storage
+### 🗄️ Data Storage
 
 Taskly uses a SQLite database to persist tasks. The database is stored in an XDG-compliant directory (typically `$HOME/.local/share/tasks.db`). This structure enables easy backup and integration across systems.
 
 
-## Dependencies
+## 📦 Dependencies
 
 - [Cobra](https://github.com/spf13/cobra): CLI command framework.
 - [Bubble Tea](https://github.com/charmbracelet/bubbletea): TUI framework for the Kanban board.
@@ -136,11 +136,11 @@ Taskly uses a SQLite database to persist tasks. The database is stored in an XDG
 - [SQLite](https://github.com/mattn/go-sqlite3): Lightweight, serverless SQL database.
 
 
-## License
-
-This project is licensed under the MIT License.
-
-
-## Contributions
+## 🤝 Contributions
 
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
+
+
+## 📜 License
+
+This project is licensed under the MIT License.
