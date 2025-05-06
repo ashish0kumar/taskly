@@ -68,11 +68,13 @@ func setupTable(tasks []task.Task) *table.Table {
 				cellValue := rows[row-1][col]
 				switch cellValue {
 				case "todo":
-					return baseStyle.Foreground(lipgloss.Color("240"))
+					return baseStyle
 				case "in progress":
-					return baseStyle.Foreground(lipgloss.Color("214"))
+					return baseStyle
 				case "done":
-					return baseStyle.Foreground(lipgloss.AdaptiveColor{Light: "46", Dark: "82"})
+					return baseStyle.Faint(true)
+				default:
+					return baseStyle
 				}
 			}
 			return baseStyle
