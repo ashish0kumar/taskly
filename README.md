@@ -1,14 +1,15 @@
 # Taskly
 
-**Taskly** is a CLI-based task management tool built in **Go** using the
+A command-line task management tool built in **Go** using the
 **Cobra** package. It features data storage with **SQLite**, visually styled
 output with **Lip Gloss**, and an interactive **Kanban** board view powered by
-**Bubble Tea**. Taskly makes it easy to **add**, **edit**, **delete**, and
+**Bubble Tea**. <br> 
+Taskly makes it easy to **add**, **edit**, **delete**, and
 **manage** tasks directly from the terminal.
 
-|**List View**|**Kanban View**|
-|---|---|
-|![](assets/table.png)|![](assets/kanban.png)|
+| **List View**                  | **Kanban View**                   |
+| ------------------------------ | --------------------------------- |
+| ![List View](assets/table.png) | ![Kanban View](assets/kanban.png) |
 
 ## Features
 
@@ -21,24 +22,35 @@ output with **Lip Gloss**, and an interactive **Kanban** board view powered by
 
 ## Installation
 
-Clone the repository and navigate to the project directory:
+**Prerequisites:**
+
+- [Go](https://golang.org/doc/install) (version 1.16 or later recommended)
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ashish0kumar/taskly.git
+   cd taskly
+   ```
+
+2. Install the application using `go install`:
+
+   ```bash
+   go install .
+   ```
+
+This command will compile the `main.go` file and place the resulting executable
+(`taskly`) in your `GOPATH/bin` directory. Ensure that your `GOPATH/bin` is
+included in your system's PATH environment variable so you can run `taskly` from
+anywhere in your terminal.
+
+Alternatively, you can build the executable manually:
 
 ```bash
-git clone https://github.com/ashish0kumar/taskly.git
-cd taskly
+go build -o taskly .
+# Then move the 'taskly' executable to a directory in your PATH
+# For example: mv taskly /usr/local/bin/
 ```
-
-### Prerequisites
-
-Ensure Go is installed on your system. You can install Taskly with the following
-commands:
-
-```bash
-go mod download
-go build -o taskly
-```
-
-This will create a binary executable named `taskly`.
 
 ## Usage
 
@@ -77,7 +89,7 @@ Use Taskly commands from your terminal to manage tasks. The main command is
   ```
 
 - **View Kanban Board:** Display tasks in a Kanban board layout. Tasks are
-  categorized into "todo," "in progress," and "done" columns:
+  categorized into `todo`, `in progress` and `done` columns:
 
   ```bash
   taskly kanban
