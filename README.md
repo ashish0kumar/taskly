@@ -6,6 +6,10 @@ output with **Lip Gloss**, and an interactive **Kanban** board view powered by
 **Bubble Tea**. Taskly makes it easy to **add**, **edit**, **delete**, and
 **manage** tasks directly from the terminal.
 
+|**List View**|**Kanban View**|
+|---|---|
+|![](assets/list.png)|![](assets/kanban.png)|
+
 ## Features
 
 - **Task Management:** Add, delete, update, and list tasks.
