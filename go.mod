@@ -1,4 +1,4 @@
-module tm
+module github.com/ashish0kumar/taskly
 
 go 1.20
 
