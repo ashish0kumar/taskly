@@ -1,11 +1,8 @@
-# Taskly
+<h1 align="center">Taskly</h1>
 
-A command-line task management tool built in **Go** using the
-**Cobra** package. It features data storage with **SQLite**, visually styled
-output with **Lip Gloss**, and an interactive **Kanban** board view powered by
-**Bubble Tea**. <br> 
-Taskly makes it easy to **add**, **edit**, **delete**, and
-**manage** tasks directly from the terminal.
+<p align="center">
+Command-line task manager
+</p>
 
 | **List View**                  | **Kanban View**                   |
 | ------------------------------ | --------------------------------- |
@@ -153,6 +150,16 @@ structure enables easy backup and integration across systems.
 Contributions are welcome! Please fork the repository, create a new branch, and
 submit a pull request.
 
-## License
+<br>
 
-[MIT](LICENSE)
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
+
+<p align="center">
+        <i><code>&copy 2025-present <a href="https://github.com/ashish0kumar">Ashish Kumar</a></code></i>
+</p>
+
+<div align="center">
+<a href="https://github.com/ashish0kumar/taskly/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ashish0kumar/taskly?style=for-the-badge&color=CBA6F7&logoColor=cdd6f4&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
+</div>
